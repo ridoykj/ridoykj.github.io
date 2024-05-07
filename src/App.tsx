@@ -3,7 +3,9 @@ import './App.css'
 import HeaderRC from './components/HeaderRC'
 import IntroRC from './components/IntroRC'
 import PortfolioRC from './components/PortfolioRC'
+import ResumeRC from './components/ResumeRC'
 import ServiceRC from './components/ServiceRC'
+import SkillsRC from './components/SkillsRC'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +18,8 @@ function App() {
           <IntroRC />
           <ServiceRC />
           <PortfolioRC />
+          <ResumeRC />
+          <SkillsRC/>
         </div>
       </div>
     </>
