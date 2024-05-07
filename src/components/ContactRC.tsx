@@ -1,6 +1,4 @@
-import { FaAt, FaHome, FaMailBulk, FaMailchimp, FaPhone, FaUser } from 'react-icons/fa'
-import { FaMessage } from 'react-icons/fa6'
-import { GoArrowDownRight } from 'react-icons/go'
+import { FaAt, FaHome, FaUser } from 'react-icons/fa'
 
 function ContactRC() {
     return (
