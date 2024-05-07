@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import ContactRC from './components/ContactRC'
 import HeaderRC from './components/HeaderRC'
 import IntroRC from './components/IntroRC'
 import PortfolioRC from './components/PortfolioRC'
@@ -20,6 +21,7 @@ function App() {
           <PortfolioRC />
           <ResumeRC />
           <SkillsRC/>
+          <ContactRC />
         </div>
       </div>
     </>
