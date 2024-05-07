@@ -1,4 +1,3 @@
-import React from 'react'
 import { GoArrowDownRight } from 'react-icons/go'
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 
