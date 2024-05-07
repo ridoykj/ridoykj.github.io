@@ -1,9 +1,10 @@
+import logo from '../assets/icons/code2.png';
 
 function HeaderRC() {
   return (
     <div className='flex flex-row items-center w-full gap-6 p-2'>
       <div className=''>
-        <img src='src/assets/icons/code2.png' alt="not found" className='rounded-full size-14' />
+        <img src={logo} alt="not found" className='rounded-full size-14' />
       </div>
       <a href='mailto:ridoykj@gmail.com' className='font-medium text-indigo-900 hover:text-indigo-500 grow'>ridoykj@gmail.com</a>
       <div className='font-medium text-indigo-900'>
