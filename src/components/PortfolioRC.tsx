@@ -1,6 +1,8 @@
 import { GoArrowDownRight } from 'react-icons/go'
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs'
 
+import photo from '../assets/photo/ridoy.png';
+
 type CardDataProps = {
     imageSrc: string,
     title: string,
@@ -28,22 +30,22 @@ function PortfolioRC() {
 
     const data = [
         {
-            imageSrc: 'src/assets/photo/ridoy.png',
+            imageSrc: photo,
             title: 'Title',
             description: 'Description'
         },
         {
-            imageSrc: 'src/assets/photo/ridoy.png',
+            imageSrc:photo,
             title: 'Title',
             description: 'Description'
         },
         {
-            imageSrc: 'src/assets/photo/ridoy.png',
+            imageSrc: photo,
             title: 'Title',
             description: 'Description'
         },
         {
-            imageSrc: 'src/assets/photo/ridoy.png',
+            imageSrc: photo,
             title: 'Title',
             description: 'Description'
         }

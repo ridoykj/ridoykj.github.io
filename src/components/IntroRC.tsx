@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 import { FaBaseball } from 'react-icons/fa6'
 import { FiDownload } from 'react-icons/fi'
+import photo from '../assets/photo/ridoy.png';
 
 function IntroRC() {
     return (
@@ -22,7 +23,7 @@ function IntroRC() {
                         </div>
                     </div>
                     <div className="grow">
-                        <img src="src\assets\photo\ridoy.png" className='max-w-sm rounded-3xl rotate-6 transition duration-500 hover:rotate-0 hover:ring-2 ring-indigo-600' alt="d" />
+                        <img src={photo} className='max-w-sm rounded-3xl rotate-6 transition duration-500 hover:rotate-0 hover:ring-2 ring-indigo-600' alt="d" />
                     </div>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-x-16 text-violet-500">
