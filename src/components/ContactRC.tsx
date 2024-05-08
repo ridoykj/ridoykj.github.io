@@ -49,7 +49,7 @@ function ContactRC() {
                         </div>
                         <div className='flex flex-col'>
                             <h1>Address</h1>
-                            <h1 className='font-semibold text-xl'>Savar, Dhaka</h1>
+                            <h1 className='font-semibold text-xl'>Savar, Dhaka, Bangladesh</h1>
                         </div>
                     </div>
                 </div>

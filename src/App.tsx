@@ -13,14 +13,14 @@ function App() {
 
   return (
     <>
-      <div className='bg-gradient-to-tr from-white from-70% to-purple-200 h-full '>
+      <div className='bg-gradient-to-tr from-white from-60% to-purple-200 h-full '>
         <div className="mx-auto max-w-screen-xl">
           <HeaderRC />
           <IntroRC />
           <ServiceRC />
           <PortfolioRC />
           <ResumeRC />
-          <SkillsRC/>
+          <SkillsRC />
           <ContactRC />
         </div>
       </div>
