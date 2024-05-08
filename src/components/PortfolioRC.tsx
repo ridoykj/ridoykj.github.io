@@ -11,6 +11,29 @@ type CardDataProps = {
 
 function PortfolioRC() {
 
+    const data = [
+        {
+            imageSrc: photo,
+            title: 'Title',
+            description: 'Description'
+        },
+        {
+            imageSrc: photo,
+            title: 'Title',
+            description: 'Description'
+        },
+        {
+            imageSrc: photo,
+            title: 'Title',
+            description: 'Description'
+        },
+        {
+            imageSrc: photo,
+            title: 'Title',
+            description: 'Description'
+        }
+    ]
+
     const CardData = ({ data }: { data: CardDataProps }) => {
         return (
             <div className="relative group rounded-xl">
@@ -27,70 +50,46 @@ function PortfolioRC() {
             </div>
         )
     };
-
-    const data = [
-        {
-            imageSrc: photo,
-            title: 'Title',
-            description: 'Description'
-        },
-        {
-            imageSrc:photo,
-            title: 'Title',
-            description: 'Description'
-        },
-        {
-            imageSrc: photo,
-            title: 'Title',
-            description: 'Description'
-        },
-        {
-            imageSrc: photo,
-            title: 'Title',
-            description: 'Description'
-        }
-    ]
-
     return (
-        <div className='p-16'>
+        <div className='p-4 md:p-16'>
             <div>
                 <div className="section-header text-center">
-                    <h2 className="font-bold text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Recent Works</h2>
+                    <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Recent Works</h2>
                     <p className='p-6'>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
                 </div>
             </div>
             <div>
                 <div className=''>
                     <Tabs className="w-full flex flex-col items-center">
-                        <TabList className="flex flex-row rounded-full bg-violet-50 px-2 text-violet-500 place-content-center w-fit">
+                        <TabList className="flex flex-row rounded-full bg-violet-50 px-2 m-4 text-violet-500 place-content-center w-fit">
                             <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">All</Tab>
                             <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">UX/UI</Tab>
                             <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Branding</Tab>
                             <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Apps</Tab>
                         </TabList>
-                        <TabPanel className="w-full m-6">
-                            <div className='grid grid-cols-2 gap-8'>
+                        <TabPanel className="w-full">
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                                 {data.map((item, index) => (
                                     <CardData key={index} data={item} />
                                 ))}
                             </div>
                         </TabPanel>
                         <TabPanel className="w-full">
-                            <div className='grid grid-cols-2 gap-8'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                                 {data.map((item, index) => (
                                     <CardData key={index} data={item} />
                                 ))}
                             </div>
                         </TabPanel>
                         <TabPanel className="w-full">
-                            <div className='grid grid-cols-2 gap-8'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                                 {data.map((item, index) => (
                                     <CardData key={index} data={item} />
                                 ))}
                             </div>
                         </TabPanel>
                         <TabPanel className="w-full">
-                            <div className='grid grid-cols-2 gap-8'>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                                 {data.map((item, index) => (
                                     <CardData key={index} data={item} />
                                 ))}

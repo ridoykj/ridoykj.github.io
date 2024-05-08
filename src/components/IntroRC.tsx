@@ -6,11 +6,11 @@ import photo from '../assets/photo/ridoy.png';
 function IntroRC() {
     return (
         <>
-            <div className='flex flex-col p-8 gap-14'>
-                <div className='flex flex-row'>
+            <div className='flex flex-col p-4 md:p-8 gap-14'>
+                <div className='flex flex-col md:flex-row'>
                     <div className="flex flex-col gap-4">
-                        <span className="font-bold text-4xl text-indigo-900">I am Ridoy</span>
-                        <h1 className="font-bold text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">Java <br />FullStack Developer</h1>
+                        <span className="font-bold text-3xl md:text-4xl text-indigo-900">I am Ridoy</span>
+                        <h1 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">Java <br />FullStack Developer</h1>
                         <p className="text-xl text-gray-600 font-light">I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people</p>
                         <div className="flex flex-row w-full text-violet-500 gap-5">
                             <a href="#" className="px-10 py-4 rounded-3xl border-violet-500 border inline-flex gap-3 transition duration-300 hover:bg-violet-500 hover:text-white">Download CV<FiDownload /></a>
@@ -22,25 +22,25 @@ function IntroRC() {
                             </ul>
                         </div>
                     </div>
-                    <div className="grow">
+                    <div className="grow mt-16 md:mt-0">
                         <img src={photo} className='max-w-sm rounded-3xl rotate-6 transition duration-500 hover:rotate-0 hover:ring-2 ring-indigo-600' alt="d" />
                     </div>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-16 text-violet-500">
-                    <div className="inline-flex gap-2 items-center">
-                        <h1 className='font-bold text-6xl'>6</h1>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-16 gap-y-8 text-violet-500">
+                    <div className="flex flex-col md:flex-row gap-2 items-center">
+                        <h1 className='font-bold text-5xl md:text-6xl'>6</h1>
                         <p>Years of Experience</p>
                     </div>
-                    <div className="inline-flex gap-2 items-center">
-                        <h1 className='font-bold text-6xl'>50+</h1>
+                    <div className="flex flex-col md:flex-row gap-2 items-center">
+                        <h1 className='font-bold text-5xl md:text-6xl'>50+</h1>
                         <p>Project Completed</p>
                     </div>
-                    <div className="inline-flex gap-2 items-center">
-                        <h1 className='font-bold text-6xl'>1.5K</h1>
+                    <div className="flex flex-col md:flex-row gap-2 items-center">
+                        <h1 className='font-bold text-5xl md:text-6xl'>1.5K</h1>
                         <p>Happy Clients</p>
                     </div>
-                    <div className="inline-flex gap-2 items-center">
-                        <h1 className='font-bold text-6xl'>6</h1>
+                    <div className="flex flex-col md:flex-row gap-2 items-center">
+                        <h1 className='font-bold text-5xl md:text-6xl'>6</h1>
                         <p>Years of Experience</p>
                     </div>
                 </div>

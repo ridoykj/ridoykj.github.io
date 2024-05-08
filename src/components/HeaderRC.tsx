@@ -18,7 +18,7 @@ function HeaderRC() {
         </ul>
       </div>
       <div>
-        <button type="button" className='rounded-full text-white font-medium px-4 py-2 bg-gradient-to-r from-violet-500  to-indigo-900 to-85% transition duration-1000 hover:from-indigo-900  hover:to-violet-500'> Hire Me!</button>
+        <button type="button" className='rounded-full text-white font-medium px-4 py-2 bg-gradient-to-r from-violet-500  to-indigo-900 to-85% transition duration-1000 hover:from-indigo-900 hover:to-violet-500'>Hire Me!</button>
       </div>
     </div>
   )
