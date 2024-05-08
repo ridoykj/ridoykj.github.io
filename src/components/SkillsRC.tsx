@@ -21,20 +21,20 @@ type CardDataProps = {
 function SkillsRC() {
 
     const data = [
-        { imageSrc: java, title: 'Java', percentage: 95 },
+        { imageSrc: java, title: 'Java', percentage: 98 },
         // { imageSrc: cpp, title: 'C++', percentage: 75 },
-        { imageSrc: csharp, title: 'C#', percentage: 87 },
-        { imageSrc: python, title: 'Python', percentage: 87 },
-        { imageSrc: typescript, title: 'TypeScript', percentage: 87 },
+        { imageSrc: csharp, title: 'C#', percentage: 53 },
+        { imageSrc: python, title: 'Python', percentage: 52 },
+        { imageSrc: typescript, title: 'TypeScript', percentage: 80 },
         { imageSrc: springboot, title: 'Spring Boot', percentage: 92 },
-        { imageSrc: reactjs, title: 'ReactJS', percentage: 87 },
+        { imageSrc: reactjs, title: 'ReactJS', percentage: 70 },
         { imageSrc: mssql, title: 'Microsoft SQL Server', percentage: 87 },
         { imageSrc: mysql, title: 'MySQL', percentage: 87 },
         { imageSrc: kafka, title: 'Apache Kafka', percentage: 75 },
-        { imageSrc: grafana, title: 'Grafana', percentage: 87 },
+        { imageSrc: grafana, title: 'Grafana', percentage: 70 },
         { imageSrc: aws, title: 'Amazon Web Services', percentage: 55 },
         { imageSrc: azure, title: 'Azure', percentage: 55 },
-        { imageSrc: linux, title: 'Linux', percentage: 87 },
+        { imageSrc: linux, title: 'Linux', percentage: 93 },
     ]
 
 
@@ -55,7 +55,7 @@ function SkillsRC() {
 
 
     return (
-        <div className='p-4 md:p-16'>
+        <div  id='link-skills' className='p-4 md:p-16'>
             <div>
                 <div className="section-header text-center">
                     <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Skills</h2>

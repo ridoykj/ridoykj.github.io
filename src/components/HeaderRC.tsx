@@ -2,6 +2,11 @@ import { useEffect, useState } from 'react';
 import logo from '../assets/icons/code2.png';
 import { FaBars } from 'react-icons/fa';
 
+type NavButtonProps = {
+  title: string,
+  links: string
+}
+
 function HeaderRC() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,11 +31,18 @@ function HeaderRC() {
     };
   }, []);
 
-  const NavButton = ({ title }: { title: string }) => {
-    return (<a className='block mt-4 lg:inline-block lg:mt-0 text-violet-900 mr-4 border-b-2 border-transparent transition duration-300 hover:border-indigo-700'>{title}</a>);
+  const NavButton = ({ nav }: { nav: NavButtonProps }) => {
+    return (<a href={nav.links} className='block mt-4 lg:inline-block lg:mt-0 text-violet-900 mr-4 border-b-2 border-transparent transition duration-300 hover:border-indigo-700'>{nav.title}</a>);
   }
 
-  const buttons = ['Service', 'Works', 'Resume', 'Skills', 'Testimonials', 'Contact'];
+  const buttons = [
+    { title: 'Service', links: '#link-service' },
+    { title: 'Works', links: '#link-works' },
+    { title: 'Resume', links: '#link-resume' },
+    { title: 'Skills', links: '#link-skills' },
+    // { title: 'Testimonials', links: '#link-testimonials' },
+    { title: 'Contact', links: '#link-contact' }
+  ];
 
   return (
     <>
@@ -49,20 +61,9 @@ function HeaderRC() {
             </div>
           </div>
           <div className={`lg:flex lg:items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'}`}>
-            <div className="font-medium md:text-indigo-900 text-2xl md:text-base lg:flex-grow gap-6 px-4">
-              {buttons.map((button, index) => <NavButton key={index} title={button} />)}
-              {/* <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
-                Home
-              </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
-                About
-              </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4">
-                Services
-              </a>
-              <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white">
-                Contact
-              </a> */}
+            <div className="font-medium md:text-indigo-900 text-2xl md:text-base lg:flex-grow gap-6 px-4 border-b-2 md:border-b-0">
+              {buttons.map((button, index) => <NavButton key={index} nav={button} />)}
+              <button type="button" className='rounded-full my-4 text-white font-medium px-4 py-2 bg-gradient-to-r from-violet-500  to-indigo-900 to-85% transition duration-1000 hover:from-indigo-900 hover:to-violet-500'>Hire Me!</button>
             </div>
           </div>
         </nav >

@@ -11,42 +11,37 @@ function ResumeRC() {
 
     const dataExperience = [
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin sdfiajskldfjkah ksjkahgsjdfh ajskdghfjk asdfhkla sdjfhajlks hfkalsdhf'
+            title: 'Sr. Java Software Developer',
+            dataRange: '2022-Present',
+            description: 'De-Soft Ltd. - Dhaka, Bangladesh'
         },
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
+            title: 'Java Software Developer',
+            dataRange: '2019-2022',
+            description: 'Naztech Inc. - Dhaka, Bangladesh'
         },
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
-        },
-        {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
+            title: 'Trainer & Mentor',
+            dataRange: '2018-2022',
+            description: 'Naztech Inc. - Dhaka, Bangladesh'
         }
     ]
 
     const dataEducation = [
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
+            title: 'B.Sc in CSE',
+            dataRange: '2020-2024',
+            description: 'Dhaka International University'
         },
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
+            title: 'Diploma in CSE',
+            dataRange: '2014-2018',
+            description: 'Dhaka Polytechnic Institute'
         },
         {
-            title: 'Branding Design',
-            dataRange: '2022-2023',
-            description: 'I break down complex user experin'
+            title: 'CBT&A in IT-Support I',
+            dataRange: '2018',
+            description: 'NTVQF'
         },
     ]
 
@@ -60,7 +55,7 @@ function ResumeRC() {
     };
 
     return (
-        <div className='bg-violet-50 flex flex-col md:items-center p-4 md:p-16 w-full'>
+        <div id='link-resume' className='bg-violet-50 flex flex-col md:items-center p-4 md:p-16 w-full'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-16 p-4'>
                 <div className="text-center">
                     <div className='inline-flex font-bold text-4xl md:text-5xl gap-3 pb-8'>

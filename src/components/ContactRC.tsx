@@ -2,7 +2,7 @@ import { FaAt, FaHome, FaUser } from 'react-icons/fa'
 
 function ContactRC() {
     return (
-        <div className='bg-violet-50 p-4 md:p-16 w-full flex flex-col md:flex-row gap-4'>
+        <div id='link-contact' className='bg-violet-50 p-4 md:p-16 w-full flex flex-col md:flex-row gap-4'>
             <div className="text-left bg-white rounded-xl p-6">
                 <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">Let’s work together!</h2>
                 <p className='py-6'>I design and code beautifully simple things and i love what i do. Just simple like that!</p>
