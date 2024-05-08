@@ -8,8 +8,10 @@ import mssql from '../assets/icons/skills/mssql.jpg';
 import mysql from '../assets/icons/skills/mysql.png';
 import csharp from '../assets/icons/skills/csharp.png';
 import grafana from '../assets/icons/skills/grafana.png';
+import redis from '../assets/icons/skills/redis.png';
 import linux from '../assets/icons/skills/linux.png';
 import python from '../assets/icons/skills/python.png';
+import opencv from '../assets/icons/skills/opencv.png';
 import reactjs from '../assets/icons/skills/reactjs.png';
 import typescript from '../assets/icons/skills/typescript.png';
 type CardDataProps = {
@@ -28,10 +30,12 @@ function SkillsRC() {
         { imageSrc: typescript, title: 'TypeScript', percentage: 80 },
         { imageSrc: springboot, title: 'Spring Boot', percentage: 92 },
         { imageSrc: reactjs, title: 'ReactJS', percentage: 70 },
+        { imageSrc: opencv, title: 'OpenCV', percentage: 80 },
+        { imageSrc: kafka, title: 'Apache Kafka', percentage: 75 },
+        { imageSrc: redis, title: 'Redis', percentage: 80 },
+        { imageSrc: grafana, title: 'Grafana', percentage: 70 },
         { imageSrc: mssql, title: 'Microsoft SQL Server', percentage: 87 },
         { imageSrc: mysql, title: 'MySQL', percentage: 87 },
-        { imageSrc: kafka, title: 'Apache Kafka', percentage: 75 },
-        { imageSrc: grafana, title: 'Grafana', percentage: 70 },
         { imageSrc: aws, title: 'Amazon Web Services', percentage: 55 },
         { imageSrc: azure, title: 'Azure', percentage: 55 },
         { imageSrc: linux, title: 'Linux', percentage: 93 },
