@@ -21,10 +21,10 @@ function IntroRC() {
                                 <li className='rounded-full border-violet-500 border p-2 transition duration-200 hover:bg-violet-500 hover:text-white'><a href="https://twitter.com/ridoykj"><FaTwitter /></a></li>
                                 <li className='rounded-full border-violet-500 border p-2 transition duration-200 hover:bg-violet-500 hover:text-white'><a href='mailto:ridoykj@gmail.com'><FaEnvelope /></a></li>
                             </ul>
-                            <span className="absolute flex size-14 md:size-64 items-center">
+                            {/* <span className="absolute flex size-14 md:size-3 items-center">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 text-7xl md:text-[12rem] text-violet-200/20">Hello</span>
                                 <span className="relative inline-flex rounded-full text-7xl md:text-[12rem] text-violet-200/30">Hello</span>
-                            </span>
+                            </span> */}
                         </div>
                     </div>
 

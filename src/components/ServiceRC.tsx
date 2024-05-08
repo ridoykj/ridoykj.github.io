@@ -11,23 +11,58 @@ function ServiceRC() {
     const data = [
         {
             index: '01',
-            title: 'Branding Design',
-            description: 'I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people'
+            title: 'Strong Java Fundamentals',
+            description: 'I have a deep understanding of Java syntax, object-oriented programming (OOP) principles, and core libraries, allowing me to write efficient and reliable code.'
         },
         {
             index: '02',
-            title: 'Web Design',
-            description: 'I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people'
+            title: 'Clean Code Practices',
+            description: 'Prioritize writing code that is well-formatted, easy to read, and understandable by others. This includes using meaningful variable names, proper indentation, and commenting my code.'
         },
         {
             index: '03',
-            title: 'UI/UX Design',
-            description: 'I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people'
+            title: 'Unit Testing',
+            description: 'Actively write unit tests to verify the functionality of my code modules in isolation. This helps catch bugs early on and ensures my code behaves as expected.'
         },
         {
             index: '04',
-            title: 'Graphics Design',
-            description: 'I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people'
+            title: 'Code Reusability',
+            description: 'Strive to write reusable code components that can be leveraged across different parts of the application, reducing redundancy and maintenance effort.'
+        },
+        {
+            index: '05',
+            title: 'Design Patterns',
+            description: 'Understand and apply appropriate design patterns to structure my code for flexibility and maintainability. This promotes loose coupling and easier modification in the future.'
+        },
+        {
+            index: '06',
+            title: 'Documentation',
+            description: 'Document my code clearly, explaining its purpose, functionality, and usage. This aids other developers in understanding and modifying the codebase.'
+        },
+        {
+            index: '07',
+            title: 'Understanding Testing Principles',
+            description: 'Grasp the importance of different testing levels (unit, integration, system) and collaborate with QA testers effectively.'
+        },
+        {
+            index: '08',
+            title: 'Bug Fixing',
+            description: 'Possess strong debugging skills to identify, diagnose, and fix bugs efficiently. This minimizes application defects and improves overall quality.'
+        },
+        {
+            index: '09',
+            title: 'Performance Optimization',
+            description: 'I am aware of potential performance bottlenecks in Java applications and can identify areas for improvement. I might suggest code optimizations or utilize profiling tools to enhance application responsiveness.'
+        },
+        {
+            index: '10',
+            title: 'Adherence to Coding Standards',
+            description: 'Follow established coding conventions within my team or project to ensure consistency and maintainability across the codebase.'
+        },
+        {
+            index: '11',
+            title: 'Communication and Collaboration',
+            description: 'Effectively communicate technical concepts to other developers, testers, and stakeholders. This fosters collaboration and helps ensure everyone is on the same page regarding quality expectations.'
         }
     ]
 
@@ -47,7 +82,7 @@ function ServiceRC() {
             <div>
                 <div className="section-header text-center">
                     <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Quality Services</h2>
-                    <p className='p-6'>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+                    <p className='p-6'>As a Java developer, your Quality Services (QS) focus on writing clean, maintainable, and robust code that contributes to high-quality software. Here's how your skills translate into delivering quality</p>
                 </div>
             </div>
             <div>
