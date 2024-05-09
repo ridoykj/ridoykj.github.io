@@ -38,7 +38,7 @@ function IntroRC() {
                         <p>Years of Experience</p>
                     </div>
                     <div className="flex flex-col md:flex-row gap-2">
-                        <h1 className='font-bold text-5xl md:text-6xl'>32+</h1>
+                        <h1 className='font-bold text-5xl md:text-6xl'>48+</h1>
                         <p>Project Completed</p>
                     </div>
                     <div className="flex flex-col md:flex-row gap-2">
