@@ -83,7 +83,7 @@ function PortfolioRC() {
 
     const CardData = ({ data }: { data: CardDataProps }) => {
         return (
-            <div className="relative group rounded-xl hover:shadow-xl shadow-violet-400/50">
+            <div className="relative group rounded-xl hover:shadow-xl shadow-violet-800/30">
                 <div className='rounded-xl h-[35rem] border-2 border-violet-300 overflow-hidden flex items-center justify-center'>
                     <img src={data.imageSrc} alt="Product" className="rounded-xl object-contain h-[35rem]" />
                 </div>
@@ -93,7 +93,7 @@ function PortfolioRC() {
                             <h3 className="text-3xl font-bold text-left">{data.title}</h3>
                             <p className="mt-2 text-left">{data.description}</p>
                         </div>
-                        <button type='button' className="col-span-1" title='s'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
+                        <button type='button' className="col-span-1" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
                     </div>
                 </div>
             </div>

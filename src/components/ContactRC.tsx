@@ -2,8 +2,8 @@ import { FaAt, FaHome, FaUser } from 'react-icons/fa'
 
 function ContactRC() {
     return (
-        <div id='link-contact' className='bg-violet-50 p-4 md:p-16 w-full flex flex-col md:flex-row gap-4'>
-            <div className="text-left bg-white rounded-xl p-6">
+        <div id='link-contact' className='bg-violet-50 p-4 md:p-16 w-full flex flex-col md:flex-row gap-4 '>
+            <div className="text-left bg-white rounded-xl p-6 w-full md:w-1/2">
                 <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">Let’s work together!</h2>
                 <p className='py-6'>I specialize in crafting elegant and efficient Java software solutions, and I'm passionate about my work. It's as straightforward as that!</p>
                 <div>
@@ -23,7 +23,7 @@ function ContactRC() {
                     </div>
                 </div>
             </div>
-            <div className='m-2 md:m-10 flex flex-col gap-6'>
+            <div className='flex flex-col gap-6 m-2 md:m-10'>
                 <div className='flex flex-row gap-4'>
                     <div className='p-4 text-white text-xl bg-violet-500 rounded-full text-center'>
                         <FaUser />
