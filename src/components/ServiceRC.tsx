@@ -82,7 +82,7 @@ function ServiceRC() {
             <div>
                 <div className="section-header text-center">
                     <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Quality Services</h2>
-                    <p className='p-6'>As a Java developer, your Quality Services (QS) focus on writing clean, maintainable, and robust code that contributes to high-quality software. Here's how your skills translate into delivering quality</p>
+                    <p className='p-6'>In my role as a Java developer, my Quality Services (QS) focus on writing clean, maintainable, and robust code that contributes to high-quality software. Here's how my skills translate into delivering quality.</p>
                 </div>
             </div>
             <div>

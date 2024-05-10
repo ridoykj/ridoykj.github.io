@@ -104,7 +104,7 @@ function PortfolioRC() {
             <div>
                 <div className="section-header text-center">
                     <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Recent Works</h2>
-                    <p className='p-6'>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+                    <p className='p-6'>Here is a showcase of the software development projects I have recently undertaken.</p>
                 </div>
             </div>
             <div>

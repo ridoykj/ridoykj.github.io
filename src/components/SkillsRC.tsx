@@ -63,7 +63,7 @@ function SkillsRC() {
             <div>
                 <div className="section-header text-center">
                     <h2 className="font-bold text-4xl md:text-5xl bg-gradient-to-r from-violet-500 to-violet-800 to-40% inline-block text-transparent bg-clip-text">My Skills</h2>
-                    <p className='p-6'>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
+                    <p className='p-6'>Here is an overview of my latest software development skills and expertise.</p>
                 </div>
             </div>
             <div>
