@@ -58,7 +58,7 @@ function PortfolioRC() {
         },
         {
             imageSrc: deerp,
-            title: 'De-ERP System',
+            title: 'De-ERP',
             description: 'This project is developing a specialized tool for managing a company’s resources. The system will be able to manage company resources, company employees, company reports and many more. The system will also be able to generate a report (Dashboard) based on the company data. Analyzing the report, the company admin will be able to take necessary actions.'
         }
     ]
@@ -66,12 +66,12 @@ function PortfolioRC() {
     const mobileApps = [
         {
             imageSrc: clubapp,
-            title: 'De-Club App',
+            title: 'De-Club',
             description: 'This project is developing a specialized app for managing club members. The system will be able to manage club members, club events, club fees, club reports and many more. The system will also be able to generate a report (Dashboard) based on the club members data. Analyzing the report, the club admin will be able to take necessary actions.'
         },
         {
             imageSrc: studentapp,
-            title: 'De-Student App',
+            title: 'De-Student',
             description: 'This project is developing a specialized app for managing students. The system will be able to manage students, student fees, student reports and many more. The system will also be able to generate a report (Dashboard) based on the student data. Analyzing the report, the school admin will be able to take necessary actions.'
         },
         {
