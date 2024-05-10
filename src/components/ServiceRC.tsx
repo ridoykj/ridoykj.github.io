@@ -68,11 +68,11 @@ function ServiceRC() {
 
     const CardData = ({ data }: { data: CardDataProps }) => {
         return (
-            <div className='group grid grid-col-1 md:grid-cols-7 text-violet-500 transition duration-200 hover:bg-gradient-to-r hover:from-violet-500 hover:to-violet-800 to-40% p-3 md:p-4 hover:text-white md:items-center md:gap-4'>
-                <span className="text-xl font-semibold col-span-1 md:col-span-1">{data.index}</span>
-                <span className="text-xl md:text-3xl font-semibold col-span-2 pb-3 md:pb-0">{data.title}</span>
+            <div className='group grid grid-col-1 md:grid-cols-7 md:gap-4 md:p-4 md:items-center transition duration-300 hover:bg-gradient-to-r hover:from-violet-500 hover:to-violet-800 to-40% p-3 '>
+                <span className="text-xl font-semibold col-span-1 md:col-span-1 text-violet-500 group-hover:text-white">{data.index}</span>
+                <span className="text-xl md:text-3xl font-semibold col-span-2 pb-3 md:pb-0 text-violet-500 group-hover:text-white">{data.title}</span>
                 <span className="md:col-span-3 text-black group-hover:text-white">{data.description}</span>
-                <button type='button' className="md:col-span-1 flex items-center" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
+                <button type='button' className="md:col-span-1 flex items-center text-violet-500 group-hover:text-white" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
             </div>
         )
     };
