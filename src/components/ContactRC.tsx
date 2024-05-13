@@ -23,8 +23,9 @@ function ContactRC() {
                         <InputField id='email' label='Email' className='w-full' />
                         <InputField id='phone' label='Phone' className='w-full' />
                     </div>
-                    <div>
-                        <textarea className="appearance-none block w-full  text-gray-700 border border-violet-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" id="message" placeholder="Message" />
+                    <div className='group relative w-full'>
+                        <textarea className="peer border-2 rounded-lg bg-transparent px-4 py-3 text-base text-gray-700 transition duration-150 ease-in-out focus:outline-none focus:border-purple-600 w-full" id="message" title="Message" />
+                        <label className="absolute text-lg left-4 text-gray-400 pointer-events-none bg-white transition duration-150 ease-in-out transform translate-y-3 peer-focus:-translate-y-2 peer-focus:text-sm peer-focus:text-purple-600">Message</label>
                     </div>
                     <div>
                         <button type="button" className='rounded-full text-white font-medium px-6 py-4 bg-gradient-to-r from-violet-500 to-indigo-900 to-85% transition ease-in-out delay-150 duration-300 hover:from-indigo-900 hover:to-violet-500'>Send Message</button>
