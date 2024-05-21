@@ -51,7 +51,7 @@ function SkillsRC() {
                     </div>
                     <h1 className='font-semibold text-lg text-gray-500 text-end group-hover:text-violet-400'>{data.percentage}%</h1>
                 </div>
-                <span className='text-violet-500'>{data.title}</span>
+                <span className='text-violet-500 truncate'>{data.title}</span>
             </div>
         )
     };
