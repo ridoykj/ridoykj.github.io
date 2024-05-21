@@ -22,17 +22,17 @@ function PortfolioRC() {
         {
             imageSrc: code,
             title: 'Docutech',
-            description: 'This project is developing an Specialized Receipt & Invoice (PDF) Extraction System for a client. The system will be able to extract data from the PDF and store it in the database. The system will also be able to generate a report (Dashboard) based on the extracted data. Analyzing the report, the client will be able to take necessary actions.'
+            description: 'This project is developing an Specialized Receipt & Invoice (PDF) Extraction System for a client. The system will be able to extract data from the PDF and store it in the database...'
         },
         {
             imageSrc: code,
             title: 'JobHarvester',
-            description: 'This project is developing a specialized tool for scraping job circular information from various job sites and storing them in a database. The system will also be able to generate a report (Dashboard) based on the extracted data. Analyzing the report, the client will be able to take necessary actions.'
+            description: 'This project is developing a specialized tool for scraping job circular information from various job sites and storing them in a database...'
         },
         {
             imageSrc: code,
             title: 'PricePrompt',
-            description: 'This project is developing a specialized tool web scraping tool for extracting product information from various e-commerce websites, products tracking and price drop alert (Email).'
+            description: 'This project is developing a specialized tool web scraping tool for extracting product information from various e-commerce websites, products tracking and price drop alert (Email)...'
         }
     ]
 
@@ -40,12 +40,12 @@ function PortfolioRC() {
         {
             imageSrc: electionapp,
             title: 'De-Smart Election',
-            description: 'This project is developing a specialized tool for counting votes from the scanned ballot paper. The system will be able to extract data from the scanned ballot paper using Image Processing techniques and store it in the database. Public users will be able to see the result in real-time.'
+            description: 'This project is developing a specialized tool for counting votes from the scanned ballot paper...'
         },
         {
             imageSrc: vms,
             title: 'Visitor Management System – VMS',
-            description: 'This project is developing a Managing Port Visitor which insure port entry security, Vehicle Verification, Door Manager, Guest manager, Visitor Pass Generator and many more. The system will be able to capture visitor’s image, vehicle image and verify the vehicle number plate using Image Processing techniques and store it in the database. The client will be able to take necessary actions.'
+            description: 'This project is developing a Managing Port Visitor which insure port entry security, Vehicle Verification, Door Manager, Guest manager, Visitor Pass Generator and many more...'
         }
     ]
 
@@ -54,12 +54,12 @@ function PortfolioRC() {
         {
             imageSrc: cib,
             title: 'CIB Integration - Bangladesh Bank',
-            description: 'This project is developing a specialized tool for integrating the Core Banking System with the Bangladesh Bank. The system will be able to send data to the Bangladesh Bank and receive data from the Bangladesh Bank for verifying the client’s transaction.'
+            description: 'This project is developing a specialized tool for integrating the Core Banking System with the Bangladesh Bank...'
         },
         {
             imageSrc: deerp,
             title: 'De-ERP',
-            description: 'This project is developing a specialized tool for managing a company’s resources. The system will be able to manage company resources, company employees, company reports and many more. The system will also be able to generate a report (Dashboard) based on the company data. Analyzing the report, the company admin will be able to take necessary actions.'
+            description: 'This project is developing a specialized tool for managing a company’s resources...'
         }
     ]
 
@@ -67,30 +67,30 @@ function PortfolioRC() {
         {
             imageSrc: clubapp,
             title: 'De-Club',
-            description: 'This project is developing a specialized app for managing club members. The system will be able to manage club members, club events, club fees, club reports and many more. The system will also be able to generate a report (Dashboard) based on the club members data. Analyzing the report, the club admin will be able to take necessary actions.'
+            description: 'This project is developing a specialized app for managing club members. The system will be able to manage club members, club events, club fees, club reports and many more...'
         },
         {
             imageSrc: studentapp,
             title: 'De-Student',
-            description: 'This project is developing a specialized app for managing students. The system will be able to manage students, student fees, student reports and many more. The system will also be able to generate a report (Dashboard) based on the student data. Analyzing the report, the school admin will be able to take necessary actions.'
+            description: 'This project is developing a specialized app for managing students. The system will be able to manage students, student fees, student reports and many more...'
         },
         {
             imageSrc: waiterapp,
             title: 'Waiter App',
-            description: 'This project is developing a specialized app for managing restaurant (Club) orders. The system will be able to manage restaurant orders, restaurant menu, restaurant reports and many more.'
+            description: 'This project is developing a specialized app for managing restaurant (Club) orders. The system will be able to manage restaurant orders, restaurant menu, restaurant reports and many more...'
         }
     ]
 
     const CardData = ({ data }: { data: CardDataProps }) => {
         return (
             <div className="relative group rounded-xl hover:shadow-xl shadow-violet-800/30">
-                <div className='rounded-xl h-[35rem] border-2 border-violet-300 overflow-hidden flex items-center justify-center'>
+                <div className='rounded-xl h-[20rem] border-2 border-violet-300 overflow-hidden flex items-center justify-center'>
                     <img src={data.imageSrc} alt="Product" className="rounded-xl object-contain h-[35rem]" />
                 </div>
                 <div className="absolute bottom-0 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex justify-center items-center w-full">
                     <div className="flex flex-row text-white text-center bg-gradient-to-r from-violet-500 to-indigo-900 to-85% rounded-2xl m-4 p-4 w-full">
                         <div className='grow'>
-                            <h3 className="text-3xl font-bold text-left">{data.title}</h3>
+                            <h3 className="text-xl font-bold text-left">{data.title}</h3>
                             <p className="mt-2 text-left">{data.description}</p>
                         </div>
                         <button type='button' className="col-span-1" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
@@ -117,35 +117,35 @@ function PortfolioRC() {
                         <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Apps</Tab>
                     </TabList>
                     <TabPanel className="w-full">
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                             {[...dataAnalysis, ...computerVision, ...modules, ...mobileApps].map((item, index) => (
                                 <CardData key={index} data={item} />
                             ))}
                         </div>
                     </TabPanel>
                     <TabPanel className="w-full">
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                             {dataAnalysis.map((item, index) => (
                                 <CardData key={index} data={item} />
                             ))}
                         </div>
                     </TabPanel>
                     <TabPanel className="w-full">
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                             {computerVision.map((item, index) => (
                                 <CardData key={index} data={item} />
                             ))}
                         </div>
                     </TabPanel>
                     <TabPanel className="w-full">
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                             {modules.map((item, index) => (
                                 <CardData key={index} data={item} />
                             ))}
                         </div>
                     </TabPanel>
                     <TabPanel className="w-full">
-                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
                             {mobileApps.map((item, index) => (
                                 <CardData key={index} data={item} />
                             ))}

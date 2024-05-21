@@ -16,18 +16,18 @@ function App() {
       <div className='bg-gradient-to-tr from-white from-60% to-purple-200 h-full '>
         <div className="mx-auto max-w-screen-xl flex flex-col">
           <HeaderRC /> 
-          <IntroRC /> 
           {/* Intro Segment */}
-          <ServiceRC /> 
+          <IntroRC /> 
           {/* Service Segment - My Quality Services */}
-          <PortfolioRC /> 
+          <ServiceRC /> 
           {/* Portfolio Segment - My Recent Works */}
-          <ResumeRC /> 
+          <PortfolioRC /> 
           {/* Resume Segment - My Experience & Education */}
-          <SkillsRC /> 
+          <ResumeRC /> 
           {/* Skills Segment - My Skills */}
-          <ContactRC /> 
+          <SkillsRC /> 
           {/* Contact Segment */}
+          <ContactRC /> 
         </div>
       </div>
     </>
