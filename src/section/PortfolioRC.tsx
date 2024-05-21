@@ -108,52 +108,50 @@ function PortfolioRC() {
                 </div>
             </div>
             <div>
-                <div className=''>
-                    <Tabs className="w-full flex flex-col items-center">
-                        <TabList className="flex flex-row rounded-full bg-violet-50 px-2 m-4 text-violet-500 place-content-center w-fit">
-                            <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">All</Tab>
-                            <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Data Analysis</Tab>
-                            <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Computer Vision</Tab>
-                            <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Modules</Tab>
-                            <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Apps</Tab>
-                        </TabList>
-                        <TabPanel className="w-full">
-                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                                {[...dataAnalysis, ...computerVision, ...modules, ...mobileApps].map((item, index) => (
-                                    <CardData key={index} data={item} />
-                                ))}
-                            </div>
-                        </TabPanel>
-                        <TabPanel className="w-full">
-                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                                {dataAnalysis.map((item, index) => (
-                                    <CardData key={index} data={item} />
-                                ))}
-                            </div>
-                        </TabPanel>
-                        <TabPanel className="w-full">
-                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                                {computerVision.map((item, index) => (
-                                    <CardData key={index} data={item} />
-                                ))}
-                            </div>
-                        </TabPanel>
-                        <TabPanel className="w-full">
-                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                                {modules.map((item, index) => (
-                                    <CardData key={index} data={item} />
-                                ))}
-                            </div>
-                        </TabPanel>
-                        <TabPanel className="w-full">
-                            <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                                {mobileApps.map((item, index) => (
-                                    <CardData key={index} data={item} />
-                                ))}
-                            </div>
-                        </TabPanel>
-                    </Tabs>
-                </div>
+                <Tabs className="w-full flex flex-col items-center">
+                    <TabList className="flex flex-row rounded-full bg-violet-50 px-2 m-4 text-violet-500 place-content-center w-fit">
+                        <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">All</Tab>
+                        <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Data Analysis</Tab>
+                        <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Computer Vision</Tab>
+                        <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Modules</Tab>
+                        <Tab className="py-4 px-4 rounded-full " selectedClassName="bg-gradient-to-r from-violet-500 to-indigo-900 to-85% text-white">Apps</Tab>
+                    </TabList>
+                    <TabPanel className="w-full">
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                            {[...dataAnalysis, ...computerVision, ...modules, ...mobileApps].map((item, index) => (
+                                <CardData key={index} data={item} />
+                            ))}
+                        </div>
+                    </TabPanel>
+                    <TabPanel className="w-full">
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                            {dataAnalysis.map((item, index) => (
+                                <CardData key={index} data={item} />
+                            ))}
+                        </div>
+                    </TabPanel>
+                    <TabPanel className="w-full">
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                            {computerVision.map((item, index) => (
+                                <CardData key={index} data={item} />
+                            ))}
+                        </div>
+                    </TabPanel>
+                    <TabPanel className="w-full">
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                            {modules.map((item, index) => (
+                                <CardData key={index} data={item} />
+                            ))}
+                        </div>
+                    </TabPanel>
+                    <TabPanel className="w-full">
+                        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                            {mobileApps.map((item, index) => (
+                                <CardData key={index} data={item} />
+                            ))}
+                        </div>
+                    </TabPanel>
+                </Tabs>
             </div>
         </div>
     )
