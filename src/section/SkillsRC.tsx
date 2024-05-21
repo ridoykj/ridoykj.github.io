@@ -65,7 +65,7 @@ function SkillsRC() {
                 </div>
             </div>
             <div>
-                <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-4 md:gap-6'>
+                <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-2 md:gap-6'>
                     {data.map((item, index) => (
                         <CardData key={index} data={item} />
                     ))}
