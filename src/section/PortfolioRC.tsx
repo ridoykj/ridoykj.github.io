@@ -9,6 +9,8 @@ import waiterapp from '../assets/photo/works/waiterapp.jpg';
 import studentapp from '../assets/photo/works/studentapp.jpeg';
 import electionapp from '../assets/photo/works/electionapp.jpg';
 import deerp from '../assets/photo/works/deerp.jpg';
+import { useState } from 'react';
+import ModalRC from '../components/ModelRC';
 
 type CardDataProps = {
     imageSrc: string,
@@ -17,6 +19,9 @@ type CardDataProps = {
 }
 
 function PortfolioRC() {
+
+    const [dataInfo, setdataInfo] = useState<CardDataProps>({} as CardDataProps)
+    const [open, setOpen] = useState<boolean>(false)
 
     const dataAnalysis = [
         {
@@ -93,7 +98,12 @@ function PortfolioRC() {
                             <h3 className="text-xl font-bold text-left">{data.title}</h3>
                             <p className="mt-2 text-left">{data.description}</p>
                         </div>
-                        <button type='button' className="col-span-1" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
+                        <button type='button' className="col-span-1" title='Details'
+                            onClick={() => {
+                                setOpen(true);
+                                setdataInfo(data)
+                            }}
+                        ><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
                     </div>
                 </div>
             </div>
@@ -153,6 +163,9 @@ function PortfolioRC() {
                     </TabPanel>
                 </Tabs>
             </div>
+            <ModalRC open={open} onClose={() => { setOpen(false) }} >
+                <h1>{dataInfo.title}</h1>
+            </ModalRC>
         </div>
     )
 }

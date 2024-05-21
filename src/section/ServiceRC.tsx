@@ -1,4 +1,6 @@
 import { GoArrowDownRight } from 'react-icons/go'
+import ModalRC from '../components/ModelRC';
+import { useState } from 'react';
 
 type CardDataProps = {
     index: string,
@@ -7,6 +9,9 @@ type CardDataProps = {
 }
 
 function ServiceRC() {
+
+    const [dataInfo, setdataInfo] = useState<CardDataProps>({} as CardDataProps)
+    const [open, setOpen] = useState<boolean>(false)
 
     const data = [
         {
@@ -72,7 +77,12 @@ function ServiceRC() {
                 <span className="text-xl font-semibold col-span-1 md:col-span-1 text-violet-500 group-hover:text-white">{data.index}</span>
                 <span className="text-xl md:text-3xl font-semibold col-span-2 pb-3 md:pb-0 text-violet-500 group-hover:text-white">{data.title}</span>
                 <span className="md:col-span-3 text-black group-hover:text-white">{data.description}</span>
-                <button type='button' className="md:col-span-1 flex items-center text-violet-500 group-hover:text-white" title='Details'><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
+                <button type='button' className="md:col-span-1 flex items-center text-violet-500 group-hover:text-white" title='Details'
+                    onClick={() => {
+                        setOpen(true);
+                        setdataInfo(data)
+                    }}
+                ><GoArrowDownRight className='size-9 transition duration-200 group-hover:-rotate-90' /></button>
             </div>
         )
     };
@@ -90,6 +100,9 @@ function ServiceRC() {
                     {data.map((item, index) => (<CardData key={index} data={item} />))}
                 </div>
             </div>
+            <ModalRC open={open} onClose={() => { setOpen(false) }} >
+                <h1>{dataInfo.title}</h1>
+            </ModalRC>
         </div>
     )
 }
