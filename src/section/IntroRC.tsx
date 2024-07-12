@@ -32,9 +32,9 @@ function IntroRC() {
                         <img src={photo} className='max-w-sm rounded-3xl rotate-6 transition duration-500 hover:rotate-0 hover:ring-2 ring-indigo-600' alt="not found" />
                     </div>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-8 text-violet-500 text-left">
+                {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-8 text-violet-500 text-left">
                     <div className="flex flex-col md:flex-row gap-2">
-                        <h1 className='font-bold text-5xl md:text-6xl'>6+</h1>
+                        <h1 className='font-bold text-5xl md:text-6xl'>4+</h1>
                         <p>Years of Experience</p>
                     </div>
                     <div className="flex flex-col md:flex-row gap-2">
@@ -49,7 +49,7 @@ function IntroRC() {
                         <h1 className='font-bold text-5xl md:text-6xl'>43K+</h1>
                         <p>Happy Active Users</p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

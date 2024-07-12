@@ -17,12 +17,12 @@ function ResumeRC() {
         },
         {
             title: 'Java Software Developer',
-            dataRange: '2019-2022',
+            dataRange: '2019-2021',
             description: 'Naztech Inc. - Dhaka, Bangladesh'
         },
         {
             title: 'Trainer & Mentor',
-            dataRange: '2018-2022',
+            dataRange: '2019-2021',
             description: 'Naztech Inc. - Dhaka, Bangladesh'
         }
     ]

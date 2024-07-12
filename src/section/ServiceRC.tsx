@@ -26,8 +26,8 @@ function ServiceRC() {
         },
         {
             index: '03',
-            title: 'Unit Testing',
-            description: 'Actively write unit tests to verify the functionality of my code modules in isolation. This helps catch bugs early on and ensures my code behaves as expected.'
+            title: 'Understanding Testing Principles',
+            description: 'Grasp the importance of different testing levels (unit, integration, system) and collaborate with QA testers effectively.'
         },
         {
             index: '04',
@@ -36,36 +36,16 @@ function ServiceRC() {
         },
         {
             index: '05',
-            title: 'Design Patterns',
-            description: 'Understand and apply appropriate design patterns to structure my code for flexibility and maintainability. This promotes loose coupling and easier modification in the future.'
-        },
-        {
-            index: '06',
             title: 'Documentation',
             description: 'Document my code clearly, explaining its purpose, functionality, and usage. This aids other developers in understanding and modifying the codebase.'
         },
         {
-            index: '07',
-            title: 'Understanding Testing Principles',
-            description: 'Grasp the importance of different testing levels (unit, integration, system) and collaborate with QA testers effectively.'
-        },
-        {
-            index: '08',
-            title: 'Bug Fixing',
-            description: 'Possess strong debugging skills to identify, diagnose, and fix bugs efficiently. This minimizes application defects and improves overall quality.'
-        },
-        {
-            index: '09',
+            index: '06',
             title: 'Performance Optimization',
             description: 'I am aware of potential performance bottlenecks in Java applications and can identify areas for improvement. I might suggest code optimizations or utilize profiling tools to enhance application responsiveness.'
         },
         {
-            index: '10',
-            title: 'Adherence to Coding Standards',
-            description: 'Follow established coding conventions within my team or project to ensure consistency and maintainability across the codebase.'
-        },
-        {
-            index: '11',
+            index: '07',
             title: 'Communication and Collaboration',
             description: 'Effectively communicate technical concepts to other developers, testers, and stakeholders. This fosters collaboration and helps ensure everyone is on the same page regarding quality expectations.'
         }
