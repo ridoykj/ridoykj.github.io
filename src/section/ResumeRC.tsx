@@ -12,7 +12,7 @@ function ResumeRC() {
     const dataExperience = [
         {
             title: 'Sr. Java Software Developer',
-            dataRange: '2022-Present',
+            dataRange: '2022-2024',
             description: 'De-Soft Ltd. - Dhaka, Bangladesh'
         },
         {
